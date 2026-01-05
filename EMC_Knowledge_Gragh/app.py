@@ -535,8 +535,8 @@ with st.sidebar:
         node_limit = st.number_input(
             "最大节点数",
             min_value=1,
-            max_value=20000,
-            value=300,
+            max_value=1000,
+            value=1000,
             step=50
         )
 
@@ -547,7 +547,7 @@ with st.sidebar:
         node_limit = st.number_input(
             "最大节点数",
             min_value=1,
-            max_value=20000,
+            max_value=1000,
             value=300,
             step=50
         )
